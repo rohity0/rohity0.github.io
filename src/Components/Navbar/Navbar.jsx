@@ -26,9 +26,7 @@ const cresent = {
 	transform: 'scale(1)',
 };
 const Navbar = () => {
-	const [preScrollPos, setPreScrollPos] = useState(
-		window.pageYOffset,
-	);
+	
 	const navRef = useRef();
 
 	const { newTheme, mode, handleMode, open, handleMenu } =

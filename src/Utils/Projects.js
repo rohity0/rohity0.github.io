@@ -3,7 +3,7 @@ export const projects = [
 	{
 		img: 'https://i.postimg.cc/dt2xwGt9/Screenshot-153.png',
 		title: 'Boat-LifeStyle',
-		des: 'This is a clone of Boat-Lifestyle website, which  provides B2C electronic gradets like earphone, headphone, smartwatches and speaker. ',
+		des: 'This is a clone of Boat-Lifestyle website, which  provides B2C electronic gadgets like earphone, headphone, smart-watches and speaker. ',
 		live: 'https://myapp-yadavry09-gmailcom.vercel.app/',
 		demo: '',
 		gitHub: 'https://github.com/rohity0/maxed-tiger-1503/tree/master/myapp',

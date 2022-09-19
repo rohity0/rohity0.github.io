@@ -9,6 +9,7 @@ const About = () => {
 	
 	
 	return (
+		<>
 		<div
 			className={styles.container}
 			style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
@@ -29,11 +30,11 @@ const About = () => {
 					className={styles.aboutMe}
 				>
 					Hello! My name is Rohit and I enjoy creating things that are live on the internet. My interest in web development started
-					back last year when I was trying to edit things on the web —
+					since last one year when I was trying to edit things on the web —
 					taught me a lot about HTML & CSS!. <br />
 					<br /> Fast Forwarding to today, I built a number of web
 					applications and 2 major projects. Learned a great deal
-					about teamwork, leadership, and communication. After months
+					about teamwork, leadership and communication. After months
 					of rigorous training, here I am
 					<span style={{ color: `#00a0a0` }}>
 						{' '}
@@ -43,6 +44,7 @@ const About = () => {
 				</p>
 			</div>
 		</div>
+		</>
 	);
 };
 

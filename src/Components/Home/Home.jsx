@@ -11,6 +11,7 @@ import About from '../About/About';
 import { projects } from '../../Utils/Projects';
 import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
+import GitHubCalendar from 'react-github-calendar';
 
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
@@ -36,7 +37,7 @@ const Home = ({ scrollRef }) => {
 		document.body.style.backgroundColor = newTheme.background;
 	}, [newTheme]);
 
-	const handleButton = () => {};
+	
 
 	console.log(offset);
 	const handleShowMoreBtn = () => {
@@ -122,6 +123,12 @@ const Home = ({ scrollRef }) => {
 				className={styles.experience}
 			>
 				<About />
+
+				
+			</div>
+
+			<div>
+
 			</div>
 
 			<div id='skills' className={styles.techStacks}>
@@ -129,22 +136,30 @@ const Home = ({ scrollRef }) => {
 			</div>
 
 			<div
-				id='experience'
+				
 				className={styles.experience}
 				style={{
 					background: `${newTheme.highlightBackground}`,
 				}}
 			>
-				<div
-					data-aos='fade-right'
-					data-aos-offset='150'
-					data-aos-easing='ease-in-sine'
-					data-aos-duration='700'
-					style={{ color: `${newTheme.para}` }}
+
+			 	 <div>
+				  <h1
+					style={{ color: `${newTheme.title}` }}
+					className={styles.heading}
 				>
-                    
-				
-				</div>
+					 GitHub Calendar
+				</h1>
+				 </div>
+
+                    <div>
+					<GitHubCalendar 
+					   	style={{ color: `${newTheme.title}` }}
+				      username='rohity0'
+			         	/>
+
+					</div>
+
 			</div>
 
 			{/* project section from here => */}
