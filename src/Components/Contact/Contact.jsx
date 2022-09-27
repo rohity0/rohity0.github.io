@@ -25,11 +25,12 @@ const Contact = () => {
 				>
 					<a
 						href='tel:7015217808'
-						aria-label='GitHub'
+						aria-label='mobile'
 						rel='noreferrer'
 						target='_blank'
 					>
 						<i className='fas fa-phone-alt' />
+						<p>+91-7015217808</p>
 					</a>
 					<a
 						href='mailto:yadavry09@gmail.com'
@@ -38,6 +39,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='far fa-envelope'></i>
+						<p>yadavry09@gmail.com</p>
 					</a>
 					
 					<a
@@ -47,6 +49,7 @@ const Contact = () => {
 						target='_blank'
 					>
 						<i className='fab fa-github' />
+						<p>rohity0</p>
 					</a>
 
 					<a
@@ -56,6 +59,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='fab fa-linkedin-in' />
+						<p>rohity09yadav</p>
 					</a>
 				</div>
 			</div>
