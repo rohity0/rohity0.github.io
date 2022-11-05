@@ -69,8 +69,8 @@ const Navbar = () => {
 					<a href='#about'>About</a>
 					<a href='#skills'>Skills</a>
 					<a href='#projects'>Projects</a>
-
-					<a href='#contact'>Contact</a>
+                    <a href='#contact'>Contact</a>
+					<a href='https://drive.google.com/file/d/1hsSEbOs5F62V4tQkpTIfwlpyf-UzUp_h/view?usp=sharing' target='_blank' rel='noopener noreferrer'>RESUME</a>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}

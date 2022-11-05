@@ -4,6 +4,7 @@ import WindowSize from '../../Utils/WindowSize';
 import { Button } from '../Button/Button';
 import styles from './Card.module.css';
 import Dialog from '@mui/material/Dialog';
+import { fontSize } from '@mui/system';
 
 const Card = (props) => {
 	const [state, setState] = useState(false);
@@ -60,6 +61,8 @@ const Card = (props) => {
 								style={{
 									marginLeft: '20px',
 									color: `${newTheme.title}`,
+									fontWeight: "bold",
+									fontSize: "20px"
 								}}
 							>
 								{technology}

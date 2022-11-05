@@ -126,8 +126,7 @@
 	}
 	.bars div {
 		width: 25px;
-
-		height: 4px;
+        height: 4px;
 		border-radius: 2px;
 	}
 }

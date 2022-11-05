@@ -152,10 +152,15 @@ const Home = ({ scrollRef }) => {
 				</h1>
 				 </div>
 
-                    <div>
+                    <div
+						data-aos='fade-right'
+						data-aos-offset='200'
+						data-aos-easing='ease-in-sine'
+						data-aos-duration='800'
+					>
 					<GitHubCalendar 
 					   	style={{ color: `${newTheme.title}` }}
-				      username='rohity0'
+				        username='rohity0'
 			         	/>
 
 					</div>

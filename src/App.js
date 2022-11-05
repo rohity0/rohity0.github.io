@@ -6,8 +6,7 @@ import { ThemeContext } from './ContextProvider/ThemeContext';
 
 function App() {
 
-	const { newTheme, open, handleMenu } =
-		React.useContext(ThemeContext);
+	const { newTheme, open, handleMenu } =	React.useContext(ThemeContext);
 	const scrollRef = useRef();
 
 	
