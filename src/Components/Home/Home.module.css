@@ -227,3 +227,37 @@ body::after {
 		font-size: 1.5em;
 	}
 }
+
+.githubstat{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-bottom: 45px;
+}
+
+@media screen and (max-width: 800px){
+	.githubstat{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+    
+
+}
+
+@media screen and (max-width: 500px){
+	.gitimage{
+		width: 400px;
+	}
+
+}
+@media screen and (max-width: 350px){
+	.gitimage{
+		width: 300px;
+	}
+
+}

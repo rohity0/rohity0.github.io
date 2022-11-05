@@ -150,6 +150,7 @@ const Home = ({ scrollRef }) => {
 				>
 					 GitHub Calendar
 				</h1>
+				<div className={styles.borderBottom} />
 				 </div>
 
                     <div
@@ -162,10 +163,34 @@ const Home = ({ scrollRef }) => {
 					   	style={{ color: `${newTheme.title}` }}
 				        username='rohity0'
 			         	/>
-
+						
 					</div>
 
+				
 			</div>
+
+			<div>
+			<h1
+					style={{ color: `${newTheme.title}`, marginTop: "55px", }}
+					className={styles.heading}
+				>
+					 GitHub Stats
+				</h1>
+				<div className={styles.borderBottom} />
+
+			<div className={styles.githubstat}>
+				
+				<div style={{paddingTop: "50px",  }}>
+				  <img className={styles.gitimage} src="https://github-readme-streak-stats.herokuapp.com/?user=rohity0&layout=compact" alt="rohity0" />
+			   </div>
+
+			   <div  style={{paddingTop: "50px"}}>
+				  <img className={styles.gitimage}  src="https://github-readme-stats.vercel.app/api?username=rohity0&show_icons=true&locale=en" alt="rohit" />
+			   </div>
+  </div>	  
+			</div>
+  
+
 
 			{/* project section from here => */}
 			<div id='projects' className={styles.projects}>
