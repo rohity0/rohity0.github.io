@@ -169,7 +169,12 @@ const Home = ({ scrollRef }) => {
 				
 			</div>
 
-			<div>
+			<div  
+			    data-aos='fade-right'
+				data-aos-offset='200'
+				data-aos-easing='ease-in-sine'
+				data-aos-duration='800'
+			>
 			<h1
 					style={{ color: `${newTheme.title}`, marginTop: "55px", }}
 					className={styles.heading}
