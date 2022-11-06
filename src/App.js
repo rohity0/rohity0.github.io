@@ -40,6 +40,7 @@ function App() {
 						<a onClick={handleMenu} href='#contact'>
 							Contact
 						</a>
+						<a href='https://drive.google.com/file/d/1hsSEbOs5F62V4tQkpTIfwlpyf-UzUp_h/view?usp=sharing' target='_blank' rel='noopener noreferrer'>RESUME</a>
 					</div>
 					<Navbar />
 					<Home scrollRef={scrollRef} />
