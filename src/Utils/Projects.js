@@ -1,6 +1,17 @@
 export const projects = [
 
 	{
+		img: 'https://i.postimg.cc/9MJdVn5J/Screenshot-223.png',
+		title: 'Apna TV',
+		des: 'It\'s an OTT platform website named as Apna Tv, where you can watch different movies and web series. It\'s a collabrative project bulit by 4 team members within 4 Days',
+		demo: '',
+		live: 'https://apnatv.vercel.app/',
+		gitHub: 'https://github.com/moneyforey/Apna-TV',
+		technologies: ['React', 'ChakraUi', 'Nodejs', 'Redux','Express', 'MongoDb'],
+	},
+
+
+	{
 		img: 'https://miro.medium.com/max/1100/1*nzkfdT3q8ytPGhRDt7n7Sw.png',
 		title: 'Toggle Track',
 		des: 'This is a clone of an Toggle track website, which is an Online time tracking website, where user can track the  performance on an indivual or of a team.',
